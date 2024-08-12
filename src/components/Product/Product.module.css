@@ -1,0 +1,15 @@
+.btn {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c29f17;
+  color: aliceblue;
+  font-weight: 600;
+}
+.h2 {
+  color: chocolate;
+}
+
+.p {
+  font-weight: 600;
+}

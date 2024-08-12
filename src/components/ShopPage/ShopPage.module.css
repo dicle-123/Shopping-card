@@ -1,0 +1,14 @@
+.products {
+  text-align: center;
+}
+
+.h1 {
+  color: brown;
+  text-align: center;
+  font-weight: 600;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
