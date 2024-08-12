@@ -1,5 +1,9 @@
 .products {
   text-align: center;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .h1 {
@@ -7,8 +11,11 @@
   text-align: center;
   font-weight: 600;
 }
-.products {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
+
+.shopContainer {
+  background-image: url("../../assets/shop.jpg");
+  height: 100vh;
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
 }

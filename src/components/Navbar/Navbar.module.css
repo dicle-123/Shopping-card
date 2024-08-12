@@ -1,5 +1,9 @@
 .navbar {
   text-align: center;
+  background-color: rgb(161, 134, 67);
+
+  display: flex;
+  justify-content: center;
 }
 
 .navList {
