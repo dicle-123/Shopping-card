@@ -1,15 +1,59 @@
-.btn {
-  padding: 5px 15px;
-  border: none;
-  border-radius: 5px;
-  background-color: #c29f17;
-  color: aliceblue;
-  font-weight: 600;
-}
-.h2 {
-  color: chocolate;
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.p {
-  font-weight: 600;
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.controls button {
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.controls input {
+  width: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.addToCart {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Product.module.css */
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* Buton içindeki metin boyutu */
+  width: 40px; /* Butonun genişliği */
+  height: 40px; /* Butonun yüksekliği */
+  border: 1px solid #ddd; /* Kenar çizgisi */
+  background-color: #f0f0f0; /* Arka plan rengi */
+  cursor: pointer; /* İmleç görünümü */
+}
+
+.btn:hover {
+  background-color: #e0e0e0; /* Hover etkisi */
+}
+
+.addToCart:hover {
+  background-color: #218838;
+}
+
+.productImage {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }

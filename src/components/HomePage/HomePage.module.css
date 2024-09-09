@@ -18,3 +18,8 @@
   color: black;
   font-weight: 600;
 }
+
+.image {
+  max-width: 100%;
+  height: auto;
+}

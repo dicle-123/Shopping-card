@@ -12,10 +12,8 @@
   font-weight: 600;
 }
 
-.shopContainer {
-  background-image: url("../../assets/shop.jpg");
-  height: 100vh;
-  padding: 50px;
-  background-size: cover;
-  background-position: center;
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }

@@ -1,4 +1,23 @@
 .cart {
   text-align: center;
-  margin-top: 50px;
+  font-size: 30px;
+  color: crimson;
+}
+
+.img {
+  background-image: url("../../assets/pexels-energepic-com-27411-2988232.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  font-size: 18px;
+  margin: 10px 0;
 }

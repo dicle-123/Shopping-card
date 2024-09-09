@@ -1,10 +1,27 @@
-import style from "./Card.module.css";
+import styles from "./Card.module.css";
+import Navbar from "../Navbar/Navbar";
+import { CartContext } from "../../Context/CartContext";
+import { useContext } from "react";
 
 function Cart() {
+  const { cartItems } = useContext(CartContext);
   return (
-    <div className={style.cart}>
-      <h2>Your Cart</h2>
-      <p>No item in your cart</p>
+    <div>
+      <Navbar />
+      <div className={styles.cart}>
+        <h2>Your Cart</h2>
+        {cartItems.length > 0 ? (
+          <ul>
+            {cartItems.map((item) => (
+              <li key={item.id}>
+                {item.name} - {item.quantity} x ${item.price}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>No items in your cart</p>
+        )}
+      </div>
     </div>
   );
 }
