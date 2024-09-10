@@ -1,23 +1,37 @@
 .cart {
   text-align: center;
   font-size: 30px;
-  color: crimson;
-}
 
-.img {
-  background-image: url("../../assets/pexels-energepic-com-27411-2988232.jpg");
-  background-size: cover;
+  background-image: url("../../assets/carts.jpg");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 100vh;
-  padding: 20px;
+
+  padding-top: 1px;
 }
 
 .cart ul {
   list-style-type: none;
-  padding: 0;
+  text-align: center;
 }
 
-.cart li {
-  font-size: 18px;
-  margin: 10px 0;
+.cart .p {
+  margin-bottom: 500px;
+  color: black;
+  margin-right: 800px;
+  margin-bottom: 200px;
+  font-weight: 700;
+}
+
+.listItem {
+  color: black;
+
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 300px;
+  border-radius: 5px solid green;
+  background-color: hsl(0, 19%, 55%);
+  max-width: 400px;
+  border-radius: 10px;
 }

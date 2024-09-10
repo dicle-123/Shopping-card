@@ -1,26 +1,29 @@
-import styles from "./Card.module.css";
+import styles from "./Card.module.css"; // doğru CSS modülünü aldığından emin ol
 import Navbar from "../Navbar/Navbar";
 import { CartContext } from "../../Context/CartContext";
 import { useContext } from "react";
-import Product from "../Product/Product";
 
 function Cart() {
   const { cartItems } = useContext(CartContext);
+  const totalItems = cartItems.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
   return (
     <div>
       <Navbar />
       <div className={styles.cart}>
-        <h2>Your Cart</h2>
+        <h2>Your Cart {totalItems > 0 && `(${totalItems} items)`}</h2>
         {cartItems.length > 0 ? (
-          <ul>
+          <ul className={styles.ul}>
             {cartItems.map((item) => (
-              <li key={item.id}>
+              <li className={styles.listItem} key={item.id}>
                 {item.name} - {item.quantity} x ${item.price}
               </li>
             ))}
           </ul>
         ) : (
-          <p>No items in your cart</p>
+          <p className={styles.p}>No items in your cart</p>
         )}
       </div>
     </div>
