@@ -3,7 +3,7 @@ import { CartContext } from "../../Context/CartContext";
 import styles from "./Product.module.css";
 
 function Product({ id, name, price, image }) {
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState(0);
   const { addToCart } = useContext(CartContext);
 
   const handleIncrement = () => {

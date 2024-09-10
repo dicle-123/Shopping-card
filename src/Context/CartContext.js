@@ -20,8 +20,13 @@ export const CartContextProvider = ({ children }) => {
       }
     });
   };
+
+  const cartItemCount = cartItems.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
   return (
-    <CartContext.Provider value={{ cartItems, addToCart }}>
+    <CartContext.Provider value={{ cartItems, addToCart, cartItemCount }}>
       {children}
     </CartContext.Provider>
   );

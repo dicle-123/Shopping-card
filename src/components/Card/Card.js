@@ -2,6 +2,7 @@ import styles from "./Card.module.css";
 import Navbar from "../Navbar/Navbar";
 import { CartContext } from "../../Context/CartContext";
 import { useContext } from "react";
+import Product from "../Product/Product";
 
 function Cart() {
   const { cartItems } = useContext(CartContext);

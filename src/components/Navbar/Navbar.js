@@ -4,8 +4,9 @@ import { useContext } from "react";
 import { CartContext } from "../../Context/CartContext";
 
 function Navbar() {
+  const { cartItemCount } = useContext(CartContext);
   const { cartItems } = useContext(CartContext);
-  const cartItemCount = cartItems.length;
+
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navList}>
