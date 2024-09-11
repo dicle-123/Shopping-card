@@ -35,6 +35,11 @@ Follow these steps to run the project on your local machine:
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
+
+Live Demo
+You can check out the live demo:https://dicle-123.github.io/Shopping-cart/
+
+
 ## Folder Structure
 
 ```bash
@@ -79,5 +84,4 @@ If you'd like to contribute to this project, feel free to fork the repository an
 4.Push to the branch (git push origin feature-name)
 5.Create a new Pull Request
 
-Live Demo
-You can check out the live demo:https://dicle-123.github.io/Shopping-cart
+
