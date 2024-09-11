@@ -1,6 +1,6 @@
 # Shopping Cart Application
+This project is a simple shopping cart application. There is an add product button on the products page and a section in the navbar section that shows the number of products in the basket. When you go to the Go to cart link in the navbar, the quantity, name and price of the products in the basket are displayed, and if there is no product in the basket, the message "No items in your cart" appears.
 
-This is a simple shopping cart application built using React. The app includes a home page, shop page with products, and a cart page that displays items added to the cart.
 
 ## Table of Contents
 - [Project Setup](#project-setup)
@@ -71,16 +71,13 @@ Features
 5.Routing: React Router is used to navigate between the Home, Shop, and Cart pages.
 
 
-Demo
-You can check out the live demo of the project at the following link:
-
-Live Demo
-
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. All contributions are welcome!
-
 1.Fork the repository
 2.Create a new feature branch (git checkout -b feature-name)
 3.Commit your changes (git commit -am 'Add new feature')
 4.Push to the branch (git push origin feature-name)
 5.Create a new Pull Request
+
+Live Demo
+You can check out the live demo:https://dicle-123.github.io/Shopping-cart/
