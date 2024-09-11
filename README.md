@@ -80,4 +80,4 @@ If you'd like to contribute to this project, feel free to fork the repository an
 5.Create a new Pull Request
 
 Live Demo
-You can check out the live demo:https://dicle-123.github.io/Shopping-cart/
+You can check out the live demo:https://dicle-123.github.io/Shopping-cart
