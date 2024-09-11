@@ -20,7 +20,7 @@ Follow these steps to run the project on your local machine:
 
 2. Navigate into the project directory:
     ```bash
-    cd Shopping-cart
+    cd Shopping-card
     ```
 
 3. Install dependencies:
