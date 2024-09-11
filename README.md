@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Shopping Cart Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple shopping cart application built using React. The app includes a home page, shop page with products, and a cart page that displays items added to the cart.
 
-## Available Scripts
+## Table of Contents
+- [Project Setup](#project-setup)
+- [Folder Structure](#folder-structure)
+- [Features](#features)
+- [Demo](#demo)
+- [Contributing](#contributing)
 
-In the project directory, you can run:
+## Project Setup
 
-### `npm start`
+Follow these steps to run the project on your local machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/dicle-123/Shopping-cart.git
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate into the project directory:
+    ```bash
+    cd Shopping-cart
+    ```
 
-### `npm test`
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+src/
+│
+├── assets/                   # Stores images and static files
+├── components/                # All UI components
+│   ├── Navbar/                # Navbar component
+│   ├── HomePage/              # HomePage component
+│   ├── ShopPage/              # ShopPage component with products
+│   ├── Cart/                  # Cart component showing selected items
+│   └── Product/               # Product card component
+├── context/                   # CartContext for managing global cart state
+├── App.js                     # Main application file
+└── index.js                   # React entry point
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Key Components:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.Navbar: Provides navigation between the Home, Shop, and Cart pages.
+2.HomePage: Displays a welcome message and image.
+3.ShopPage: Lists products with a quantity input and an "Add to Cart" button.
+4.Cart: Displays the items added to the cart and their quantities.
+5.Product: Each product card includes increment/decrement controls and an "Add to Cart" button.
+6.CartContext: Manages the state of items in the cart across the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Features
+1.Home Page: Displays basic information about the store.
+2.Shop Page: Displays product cards with adjustable quantity and "Add to Cart" functionality.
+3.Cart: Displays all items added to the cart with their respective quantities and total price.
+4.Context API: Used to manage global state for the shopping cart.
+5.Routing: React Router is used to navigate between the Home, Shop, and Cart pages.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Demo
+You can check out the live demo of the project at the following link:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Live Demo
 
-### Code Splitting
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. All contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.Fork the repository
+2.Create a new feature branch (git checkout -b feature-name)
+3.Commit your changes (git commit -am 'Add new feature')
+4.Push to the branch (git push origin feature-name)
+5.Create a new Pull Request
