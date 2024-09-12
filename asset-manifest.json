@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Shopping-cart/static/css/main.7616def4.css",
+    "main.js": "/Shopping-cart/static/js/main.c5046917.js",
+    "static/js/453.5359cd42.chunk.js": "/Shopping-cart/static/js/453.5359cd42.chunk.js",
+    "static/media/product-2.jpg": "/Shopping-cart/static/media/product-2.d8129fe04e930dc5c9f9.jpg",
+    "static/media/product-4.jpg": "/Shopping-cart/static/media/product-4.8576bc990ee60d725983.jpg",
+    "static/media/carts.jpg": "/Shopping-cart/static/media/carts.954b65e4ea963031019e.jpg",
+    "static/media/product-5.jpg": "/Shopping-cart/static/media/product-5.130737278723dac04c63.jpg",
+    "static/media/product-7.jpg": "/Shopping-cart/static/media/product-7.2c05fa6069549f165c87.jpg",
+    "static/media/product-6.jpg": "/Shopping-cart/static/media/product-6.3a20315a8a19fe083d58.jpg",
+    "static/media/product-1.jpg": "/Shopping-cart/static/media/product-1.a3d335b7e5418573bd43.jpg",
+    "static/media/product-8.jpg": "/Shopping-cart/static/media/product-8.1edd05b6df1974c2e71f.jpg",
+    "static/media/product-3.jpg": "/Shopping-cart/static/media/product-3.881a266d3398e2008fe3.jpg",
+    "static/media/pexels-shattha-pilabut-38930-135620.jpg": "/Shopping-cart/static/media/pexels-shattha-pilabut-38930-135620.1d848d391d20563b5c85.jpg",
+    "index.html": "/Shopping-cart/index.html",
+    "main.7616def4.css.map": "/Shopping-cart/static/css/main.7616def4.css.map",
+    "main.c5046917.js.map": "/Shopping-cart/static/js/main.c5046917.js.map",
+    "453.5359cd42.chunk.js.map": "/Shopping-cart/static/js/453.5359cd42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7616def4.css",
+    "static/js/main.c5046917.js"
+  ]
+}
