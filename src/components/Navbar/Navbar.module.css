@@ -26,3 +26,22 @@
 .cartInfo {
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .navLink {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 600px) {
+  .navList {
+    display: flex;
+    flex-direction: column;
+  }
+  .navItem {
+    margin-bottom: 10px;
+  }
+  .navLink {
+    font-size: 25px;
+  }
+}

@@ -33,9 +33,9 @@ function Product({ id, name, price, image }) {
           value={quantity}
           onChange={(e) => setQuantity(Number(e.target.value))}
         />
-        <buntton className={styles.btn} onClick={handleIncrement}>
+        <button className={styles.btn} onClick={handleIncrement}>
           +
-        </buntton>
+        </button>
       </div>
       <button className={styles.addToCart} onClick={handleAddToCart}>
         Add To Cart

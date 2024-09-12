@@ -5,7 +5,6 @@ import { CartContext } from "../../Context/CartContext";
 
 function Navbar() {
   const { cartItemCount } = useContext(CartContext);
-  const { cartItems } = useContext(CartContext);
 
   return (
     <nav className={styles.navbar}>
