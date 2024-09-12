@@ -26,12 +26,38 @@
 
 .listItem {
   color: black;
-
+  margin-bottom: 5px;
   font-weight: 600;
   font-size: 30px;
   margin-left: 300px;
   border-radius: 5px solid green;
   background-color: hsl(0, 19%, 55%);
-  max-width: 00px;
+  max-width: 400px;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .listItem {
+    margin: auto;
+  }
+}
+@media (max-width: 600px) {
+  .listItem {
+    max-width: 300px;
+    font-size: 25px;
+  }
+  .h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .listItem {
+    max-width: 200px;
+    font-size: 20px;
+    margin: auto;
+  }
+  .h2 {
+    font-size: 25px;
+  }
 }

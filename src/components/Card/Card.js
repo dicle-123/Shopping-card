@@ -5,6 +5,7 @@ import { useContext } from "react";
 
 function Cart() {
   const { cartItems } = useContext(CartContext);
+
   const totalItems = cartItems.reduce(
     (total, item) => total + item.quantity,
     0
@@ -13,13 +14,13 @@ function Cart() {
     <div>
       <Navbar />
       <div className={styles.cart}>
-        <h2>Your Cart {totalItems > 0 && `(${totalItems} items)`}</h2>
+        <h2 className={styles.h2}>
+          Your Cart {totalItems > 0 && `(${totalItems} items)`}
+        </h2>
         {cartItems.length > 0 ? (
           <ul className={styles.ul}>
             {cartItems.map((item, index) => (
-              <li className={styles.listItem} key={item.index}>
-                {" "}
-                {/* `item.id` yoksa `index` kullan */}
+              <li key={item.id} className={styles.listItem}>
                 {item.name} - {item.quantity} x ${item.price}
               </li>
             ))}

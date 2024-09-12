@@ -16,7 +16,7 @@ function Product({ id, name, price, image }) {
   };
 
   const handleAddToCart = () => {
-    addToCart({ name, price, quantity });
+    addToCart({ id, name, price, quantity });
   };
   return (
     <div className={styles.product}>
